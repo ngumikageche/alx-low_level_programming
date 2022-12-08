@@ -1,4 +1,4 @@
-s#include<stdio.h>
+#include<stdio.h>
 /**
  *main - function that prints the size of various types
  *Return: return 0.
