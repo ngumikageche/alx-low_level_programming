@@ -12,6 +12,7 @@ putchar(num);
 if (num != 57)
 {
 putchar(44);
+putchar(' ');
 }
 }
 putchar('\n');
