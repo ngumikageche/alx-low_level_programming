@@ -1,6 +1,6 @@
 #include<ctype.h>
 /**
- *_mul- function that multiplies two ints
+ *mul- function that multiplies two ints
  *@a: first number
  *@b: second number
  *Return: returns a * b
