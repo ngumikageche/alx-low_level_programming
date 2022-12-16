@@ -16,8 +16,8 @@ if (count == 98)
 {
 break;
 }
-_putchar(',');
-_putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
 else
@@ -29,8 +29,8 @@ if (count == 98)
 {
 break;
 }
-_putchar(',');
-_putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
