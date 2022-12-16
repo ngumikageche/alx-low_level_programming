@@ -12,7 +12,7 @@ _putchar('\n');
 }
 for (ws = 1; ws <= n; ws++)
 {
-for (count = 0; count < ws; count++)
+for (count = 1; count < ws; count++)
 {
 _putchar(32);
 }
