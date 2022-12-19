@@ -6,7 +6,8 @@
 void puts2(char *str)
 {
 int count;
-for (count = 0; count <= 9; count++)
+ int i = strlen(*str);
+for (count = 0; count <= i; count++)
 {
 if (count % 2 == 0)
 {
