@@ -11,7 +11,7 @@ int count;
 int i = strlen(str);
 while (str[c] != '\0')
 c++;
-for (count = i / 2; count <= i; count++)
+for (count = (i + 1) / 2; count <= i; count++)
 {
 _putchar(str[count]);
 }
