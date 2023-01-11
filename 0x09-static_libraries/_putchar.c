@@ -1,4 +1,9 @@
-int _putchar(char c)
+/**
+ *_putchar-function that prints chars
+ *@c:character
+ *Return:0
+ */
+char _putchar(char c)
 {
-  return(0);
+return (0);
 }
