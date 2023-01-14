@@ -11,12 +11,12 @@ int main(int argc, char *argv[])
 {
 int i, x;
 int res = 1;
-if (argc > 1)
+if (argc > 2)
 {
 for (i = 1; i < argc; i++)
 {
 x = strtol(argv[i], NULL, 10);
-res = (res * (x));
+res = (res * (x)); 
 }
 printf("%d\n", res);
 }
