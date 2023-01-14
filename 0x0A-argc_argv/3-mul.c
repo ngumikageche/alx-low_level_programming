@@ -16,13 +16,14 @@ if (argc > 1)
 for (i = 1; i < argc; i++)
 {
 x = strtol(argv[i], NULL, 10);
-res = (res * x);
+res = (res * (x));
 }
 printf("%d\n", res);
 }
 else
 {
 printf("Error\n");
+return (1);
 }
 return (0);
 }
