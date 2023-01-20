@@ -15,9 +15,9 @@ va_start(arg, n);
 for (ind = 0; ind < n; ind++)
 {
 num = va_arg(arg, unsigned int);
-if (separator == NULL)
+ if (separator == NULL)
 {
-return;
+  return;
 }
 else
 {
