@@ -22,4 +22,11 @@ size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
+/**
+ *The __attribute__((constructor)) function attribute specifies that the function 
+ *before_main should be executed before the main function. When the program is run,
+ *the text "This text will be printed before the main function is executed" will be
+ *printed before the text "This is the main function"
+ */
+void before_main(void) __attribute__((constructor));
 #endif
