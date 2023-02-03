@@ -23,9 +23,7 @@ else
 {
 last = *head;
 while (last->next != NULL)
-{
 last = last->next;
-}
 last->next = new;
 }
 return (*head);
