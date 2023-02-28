@@ -1,0 +1,5 @@
+[+]----File I/O----[+]
+[+]........File Descriptors.......[+]
+[+].........Open(),read(), write() Functions.......[+]
+[+]--------Man help-------------[+]
+[+]..........open, close, read, write, dprintf........[+]
